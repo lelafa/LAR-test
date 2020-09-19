@@ -1,0 +1,36 @@
+.main{
+    &-checkout{
+    margin-bottom:10px;
+    }
+    &-div_row{
+
+        display: flex;
+        flex-direction: row;
+        
+        &_heading{
+            min-width:80px;
+            min-height:20px;
+            padding: 7px 15px;
+            border: 1px solid black;
+            text-align: center;
+        }
+    }
+    
+}
+.edit-button{
+    padding:4px;
+    border-radius: 12px;
+    background-color:green;
+    text-align: center;
+    cursor: pointer;
+}
+.delete-button{
+    padding:4px;
+    border-radius: 12px;
+    background-color:red;
+    text-align: center;
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}

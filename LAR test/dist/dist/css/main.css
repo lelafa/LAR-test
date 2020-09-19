@@ -1,0 +1,42 @@
+.main-checkout {
+  margin-bottom: 10px;
+}
+
+.main-div_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.main-div_row_heading {
+  min-width: 80px;
+  min-height: 20px;
+  padding: 7px 15px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.edit-button {
+  padding: 4px;
+  border-radius: 12px;
+  background-color: green;
+  text-align: center;
+  cursor: pointer;
+}
+
+.delete-button {
+  padding: 4px;
+  border-radius: 12px;
+  background-color: red;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */
